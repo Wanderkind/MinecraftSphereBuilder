@@ -21,7 +21,7 @@ for J in range(2*R + 1):
     
     L = len(coord)
     print(coord)
-    print('Blocks required for Y =', j, ':', L, '\n')
+    print('Blocks required for Y =', j + R + F + 1, ':', L, '\n')
     
     Count = Count + L
 
