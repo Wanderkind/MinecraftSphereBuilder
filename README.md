@@ -1,6 +1,6 @@
 # MinecraftSphereBuilder
 
-This program gives you the coordinates at which the blocks are to be placed, in order to create a structure that best resembles a sphere in Minecraft.
+This program gives you the coordinates at which the blocks are to be placed, in order to build a structure that best resembles a sphere in Minecraft.
 
 Example: Radius = 5
 
