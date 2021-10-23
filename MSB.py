@@ -1,4 +1,6 @@
 
+import math
+
 R = int(input('\nRadius = '))
 F = int(input('Floor = '))
 X = int(input('Center X coordinate = '))
@@ -15,7 +17,7 @@ for J in range(2*R + 1):
         for K in range(2*R + 1):
             k = K - R
             
-            if R - 0.5 < (i**2 + j**2 + k**2)**(1/2) < R + 0.5:
+            if R - 0.5 < math.sqrt(i**2 + j**2 + k**2) < R + 0.5:
                 P = [i + X, j + R + F + 1, k + Z]
                 coord.append(P)
     
